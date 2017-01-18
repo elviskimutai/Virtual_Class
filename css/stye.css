@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar.navbar-default.navbar-fixed-top.navabar-inverse{
+	background:black;
+}
+.title{
+	color:#fff;
+	border:1px solid #fff;
+	padding:5px;
+	border-radius:5px;
+}
+.title:hover{
+	color:#000000;
+}
+.dropdown ul li a:hover{
+	background-color:#b9fc9;
+}
+.nav.navbar-nav.navbar-right li a{
+	color:#fff;
+}
+
+.nav.navbar-nav.navbar-right li a:focus{
+	background:#fff;
+}
+.nav.navbar-nav.navbar-right  li a:active{
+background:#fff;	
+}
+.navbar-inverse .navbar-nav.active
+a,.navbar-inverse .navbar-nav.active
+a:focus,.navbar-inverse .navbar-nav>active
+a:hover{
+	background:#F1BA01;
+}
+.heading{
+text-align:center;
+padding:20px 0;	
+margin-top: 70px;
+margin-bottom: 50px;
+}
+.space{
+margin-top:50px;	
+}
+.btn-next{
+border:1px solid #1093f1;
+margin-left:5px;	
+}
+@media screen and (max-width:320px){
+	.carousal-caption h3{
+		display:none;
+	}
+	.call-to-action{
+		margin-bottom:10px;
+	}
+}
+@media screen and (max-width:360px){
+.carousel-caption h3{
+	font-size:18px;
+}
+}
+.call-to-action{
+		margin-bottom:10px;
+	}
+.juma{
+	margin-bottom:10px;
+}
+.img-circle{
+width:100px;
+}
+.call-to-action{
+	border:1px solid #DFDFDF;
+	padding:10px;
+}
+.one{
+	color:#2E0C0C;
+}
+.two{
+	color:red;
+}
+.three{
+	color:#B7B7B7;
+}
+.paragraph{
+	text-align:justify;
+	font-size:13px;
+	padding-bottom:10px;
+}
